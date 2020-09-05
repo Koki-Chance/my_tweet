@@ -1,0 +1,38 @@
+/* 投稿完了画面のデザイン */
+
+
+
+/*  */
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* 投稿が完了しました */
+.complete {
+  font-size: 40px;
+  color: #0cb6ad;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+
+
+
+/* 「投稿一覧へ戻る」のプロパティ */
+.btn-root{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  border: solid 2px #000;
+  border-radius: 5px;
+}
+
+.btn-root:hover{
+  text-decoration: none;
+  color: rgb(12, 182, 173);
+  border: solid 2px #67c5ff;
+}
