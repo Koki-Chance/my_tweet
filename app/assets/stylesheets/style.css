@@ -43,14 +43,15 @@
 
 .tweet {
   font-size: 28px;
+  font-weight: bold;
   position: absolute;
   bottom: 48px;
 }
 
 .name {
-  font-size: 28px;
+  font-size: 24px;
   bottom: 20px;
-  font-weight: bold;
+  color: #555555;
   position: absolute;
   bottom: 0px;
 }
