@@ -1,0 +1,52 @@
+
+
+header {
+  padding: 10px;
+  border-bottom: 1px solid #D8D8D8;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  height: 160px;
+}
+
+/* ヘッダー部の空間を作成 */
+.top-space {
+  height: 180px;
+}
+
+h1.head {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  margin:20px auto;
+  ;
+}
+
+a.site_title {
+  text-decoration: none;
+  color: rgb(12, 182, 173);
+}
+
+/* BEGIN(投稿する) */
+a.post {
+  text-decoration: none;
+  color: rgb(12, 182, 173);
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  border: 2px solid rgb(12, 182, 173);
+  border-radius: 10px;
+  background: #fff;
+}
+
+a.post:hover {
+  color: #fff;
+  background: #00b7ee;
+  border: 2px solid #00b7ee;
+}
+/* END（投稿する） */

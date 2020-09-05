@@ -1,0 +1,14 @@
+<div class="contents row">
+  <% @tweets.each do |tweet| %>
+    <div class="content_post" style="background-image: url(<%= tweet.image %>);">
+      <div class="container">
+        <div class="name">
+          <%= tweet.name %>
+        </div>
+        <div class="tweet">
+          <%= tweet.text %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

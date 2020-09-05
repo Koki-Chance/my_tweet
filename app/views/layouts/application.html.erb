@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Tweet</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__bar row">
+        <h1 class="head"><a class="site_title" href="/tweets">My tweet</a></h1>
+        <div class="user_nav grid-6">
+          <%= link_to "投稿ページ", "/tweets/new", class: "post" %>
+        </div>
+      </div>
+    </header>
+      <%# viewsフォルダに位置している各ビューファイルを表示する %>
+      <div class="top-space"></div>
+      <%= yield %>
+    <footer>
+
+    </footer>
+  </body>
+</html>
