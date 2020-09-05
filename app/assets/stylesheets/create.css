@@ -33,6 +33,6 @@
 
 .btn-root:hover{
   text-decoration: none;
-  color: rgb(12, 182, 173);
-  border: solid 2px #67c5ff;
+  color: #0cb6ad;
+  border: solid 2px #0cb6ad;
 }
