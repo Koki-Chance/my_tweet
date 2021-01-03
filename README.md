@@ -1,24 +1,13 @@
 # README
+This is a simple tweet application written in Ruby On Rails. Users can tweet leaving a simple message and their nickname.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You can use this app by clicking the link below.
+( Username: mytweet, Pass; mytweet )
+https://my-tweet-0000.herokuapp.com/
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Key Components
+- HTML5
+- CSS
+- User Authentication(Basic Authentication)
+- Database(Mysql)
